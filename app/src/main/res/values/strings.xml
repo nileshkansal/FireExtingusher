@@ -1,0 +1,558 @@
+<resources>
+
+    <string name="application_name">M-Fire</string>
+    <string name="app_name">M-Fire</string>
+    <string name="register_now">Register Now</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="already_user">Already user?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pleasewait" translatable="false">Please wait while loading&#8230;</string>
+    <string name="internetconnection">Please check your internet connection</string>
+    <string name="server_not_responding">Server not responding&#8230;</string>
+    <string name="splash_text">Fire Extinguisher Preventive\nMaintenance Application</string>
+    <string name="application_logo">Application logo</string>
+    <string name="scan_product">Scan Product</string>
+    <string name="hold_the_qr_code_near_mobile">Hold the QR Code near mobile</string>
+    <string name="please_scan_the_qr_code_using_mobile">Please scan the QR Code using Mobile</string>
+    <string name="share_location_sub_title">We wants to access your location only\nto provide a better experience by\nhelping you find actual details\nof fire extinguisher</string>
+    <string name="share_your_location_title">Share Your Location</string>
+    <string name="share_location">Share Location</string>
+    <string name="home">Home</string>
+    <string name="denied_permission">Oops you just denied the permission</string>
+    <string name="OTP">ENTER ONE TIME PASSWORD</string>
+    <string name="OTPText">One Time Password (OTP) has been sent\n to your **2982, please enter the\n same here to login</string>
+    <string name="EditNumber">Edit Number</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="didnt_receiveOtp">Didn\'t receive OTP?</string>
+    <string name="ResendOtp">Resend OTP</string>
+    <string name="continue_to_next">Continue to next</string>
+    <string name="verificationCode">Verification Code</string>
+    <string name="employee_id">Employee id</string>
+    <string name="logout">Logout</string>
+    <string name="enter_model_no">Enter Model No.</string>
+    <string name="type_here">Type here</string>
+    <string name="installation">Installation</string>
+    <string name="re_enter_model_no">Re-Enter Model No.</string>
+    <string name="f_e_no">F.E.NO</string>
+    <string name="get_current_location">Get current location</string>
+    <string name="location">Location</string>
+    <string name="f_e_type">F.E Type</string>
+    <string name="capacity">Capacity</string>
+    <string name="mfg_year">Mfg Year</string>
+    <string name="empty_cylinder_wt_pressure">Empty Cylinder Wt./Pressure</string>
+    <string name="full_cylinder_wt_pressure">Full Cylinder Wt./Pressure</string>
+    <string name="net_wt_pressure">Net Wt./Pressure</string>
+    <string name="last_date_of_refilling">Last Date of Refilling</string>
+    <string name="due_date_of_refilling">Due Date of Refilling</string>
+    <string name="last_date_of_hpt">Last Date Of HPT</string>
+    <string name="due_date_of_hpt">Due Date Of HPT</string>
+    <string name="spare_parts_required">Spare Parts Required</string>
+    <string name="remarks">Remarks</string>
+    <string name="product_info">Product Info</string>
+    <string name="services">Services</string>
+    <string name="okay">Okay</string>
+    <string name="others">Others</string>
+    <string name="service">Service</string>
+    <string name="client_name">Client Name</string>
+    <string name="select_required_spare_parts">Select Required \n Spare Parts</string>
+    <string name="hose_pipe">Hose Pipe</string>
+    <string name="hydrant_valve">Hydrant Valve</string>
+    <string name="black_cap">Black Cap</string>
+    <string name="shunt_wheel">Shunt Wheel</string>
+    <string name="hose_box">Hose Box</string>
+    <string name="hoses">Hoses</string>
+    <string name="glasses">Glasses</string>
+    <string name="branch_pipe">Branch Pipe</string>
+    <string name="glass_hammer">Glass Hammer</string>
+    <string name="observation">Observation</string>
+    <string name="action">Action</string>
+    <string name="hose_reel">Hose Reel</string>
+    <string name="shut_off_nozzel">Shut Off Nozzel</string>
+    <string name="ball_valve">Ball Valve</string>
+    <string name="jubli_clip">Jubli Clip</string>
+    <string name="conecting_ruber_hose">Connecting Rubber Hose</string>
+    <string name="buckets">Buckets</string>
+    <string name="stand">Stand</string>
+    <string name="number_of_fire_buckets">Number of Fire Buckets</string>
+    <string name="sand">Sand</string>
+    <string name="keys">Keys</string>
+    <string name="fire_extinguisher">Fire Extinguisher</string>
+    <string name="please_give_the_reason_of_non_servicing">Please give the reason of non servicing</string>
+    <string name="done">Done</string>
+    <string name="other">Other</string>
+    <string name="hpt">HPT</string>
+    <string name="refill">Refill</string>
+    <string name="non_serviceable_title">Non Serviceable</string>
+    <string name="select_client">Select Client</string>
+    <string name="select_visit">Select Visit</string>
+    <string name="add_new_client">Add New Client</string>
+    <string name="submit">Submit</string>
+    <string name="hp">HP</string>
+    <string name="head">HEAD</string>
+    <string name="pump_no">PUMP NO</string>
+    <string name="motor_no">MOTOR NO</string>
+    <string name="check_list_required">Check List Required</string>
+    <string name="check_list_items">Check List Items</string>
+    <string name="pump_type">PUMP TYPE</string>
+    <string name="kw">KW</string>
+    <string name="rpm">RPM</string>
+    <string name="replace">Replace</string>
+
+
+    <string name="title_activity_scan_qr_code">Scan</string>
+    <string name="qc_code_close">Close</string>
+    <string name="qr_code_select_picture">Picture</string>
+    <string name="qr_code_open_flash_light">Open flash light</string>
+    <string name="qr_code_close_flash_light">Close Flash Light</string>
+    <string name="qr_code_auto_scan_notification">Point at QR code to pay</string>
+    <string name="qr_code_notification">Notification</string>
+    <string name="qr_code_camera_not_open">Could not open your camera</string>
+    <string name="qr_code_positive_button_know">OK</string>
+    <string name="qr_code_positive_button_confirm">Confirm</string>
+    <string name="qr_code_could_not_read_qr_code_from_picture">Could not read your image.Try another image~</string>
+    <string name="qr_code_could_not_read_qr_code_from_scanner">Sorry, could not open scan content</string>
+    <string name="qr_code_camera_not_found">Could not detect camera</string>
+    <string name="authenticity_msg">Please scan coupon \n to check authenticity</string>
+    <string name="non_serviceable">Non Serviceable</string>
+    <string name="upload_image">Select image to upload</string>
+    <string name="product_image">Product Image</string>
+    <string name="client_login">Client Login</string>
+    <string name="you_are_a_client">You are a client?</string>
+    <string name="login_now">Login Now</string>
+    <string name="pressure">Pressure</string>
+    <string name="flow">Flow</string>
+    <string name="rotation">Rotation</string>
+    <string name="moc_body">MOC Body</string>
+    <string name="type_of_monitor">Type of Monitor</string>
+    <string name="size">Size</string>
+    <string name="throw_range">Throw Range</string>
+    <string name="foam_tank">Foam Tank</string>
+    <string name="foam_inductor">Foam Inductor</string>
+    <string name="handle_rotation_wheel">Handle / Rotation Wheel</string>
+    <string name="foam_inductor_pipe">Foam Inductor Pipe</string>
+    <string name="nozzle_type">Nozzle Type</string>
+    <string name="operation_manual_electric">Operation Manual / Electric</string>
+    <string name="make">Make</string>
+    <string name="siren">Siren</string>
+    <string name="cables">Cables</string>
+    <string name="specs_of_panel">Specs of Panel</string>
+    <string name="type_of_system">Type of System</string>
+    <string name="loops_zone">Loop / Zone</string>
+    <string name="repeater_panel">Repeater Panel</string>
+    <string name="model_no">Model no</string>
+    <string name="isolator_module">Isolator Module</string>
+    <string name="heat_detector">Heat Detector</string>
+    <string name="flame_detector">Flame Detector</string>
+    <string name="smoke_detector">Smoke Detector</string>
+    <string name="multi_detector">Multi Detector</string>
+    <string name="gas_detector">Gas Detector</string>
+    <string name="beam_detector">Beam Detector</string>
+    <string name="manual_call_point">Manual Call Point</string>
+    <string name="hooter_cum_sounder">Hooter Cum Sounder</string>
+    <string name="zone_monitor_module">zone monitor module</string>
+    <string name="monitor_module">Monitor Module</string>
+    <string name="control_module">Control Module</string>
+    <string name="power_supply_unit">Power Supply Unit</string>
+    <string name="zener_barrier">Zener Barrier</string>
+    <string name="battery_backup">Battery Backup</string>
+    <string name="type_of_valve">Type of valve</string>
+    <string name="moc">MOC</string>
+    <string name="spindle">Spindle</string>
+    <string name="wheel_lever">Wheel / Lever</string>
+    <string name="gasket">gasket</string>
+    <string name="gland_packing">Gland Packing</string>
+    <string name="drain_valve">Drain Valve</string>
+    <string name="qty">Qty</string>
+    <string name="pressure_gauge">Pressure Gauge</string>
+    <string name="test_valve">Test Valve</string>
+    <string name="soleniod_valve_actuator">Soleniod Valve / Actuator</string>
+    <string name="internal_disc_flap">Internal Disc / Flap</string>
+    <string name="gong_bell">Gong Bell</string>
+    <string name="specs_of_suppression_system">Specs of Suppression System</string>
+    <string name="specs_of_panel_and_make">Specs of Panel and Make</string>
+    <string name="model_no_suppression">Model no Suppression</string>
+    <string name="capacity_of_cylinder">Capacity of Cylinder</string>
+    <string name="no_of_cylinders">No of Cylinders</string>
+    <string name="empty_weight">Empty Weight</string>
+    <string name="full_weight">Full Weight</string>
+    <string name="suppression_gas_filled">Suppression Gas Filled</string>
+    <string name="pressure_gauge_reading">Pressure Gauge Reading</string>
+    <string name="electromagnetic_actuator">Electromagnetic Actuator</string>
+    <string name="pneumatic_actuator">Pneumatic Actuator</string>
+    <string name="pressure_supervisory_switch">Pressure Supervisory Switch</string>
+    <string name="flexible_discharge_hose">Flexible Discharge Hose</string>
+    <string name="flexible_actuator_hose">Flexible Actuator Hose</string>
+    <string name="nozzles_suppression">Nozzles Suppression</string>
+    <string name="abort_switch">Abort Switch</string>
+<!--    <string name="heat_detector">Heat Detector</string>-->
+    <string name="manifold">Manifold</string>
+    <string name="piping">Piping</string>
+<!--    <string name="flame_detector">Flame Detector</string>-->
+<!--    <string name="smoke_detector">Smoke Detector</string>-->
+<!--    <string name="multi_detector">Multi Detector</string>-->
+<!--    <string name="gas_detector">Gas Detector</string>-->
+    <string name="vesda_detector_panel">Vesda Detector / Panel</string>
+<!--    <string name="manual_call_point">Manual Call Point</string>-->
+<!--    <string name="hooter_cum_sounder">Hooter Cum Sounder</string>-->
+<!--    <string name="monitor_module">Monitor Module</string>-->
+<!--    <string name="control_module">Control Module</string>-->
+<!--    <string name="power_supply_unit">Power Supply Unit</string>-->
+    <string name="manual_gas_release_switch">Manual Gas Release Switch</string>
+    <string name="special_detector">Special Detector</string>
+    <string name="life_test">Life Test</string>
+
+
+    <string-array name="fe_type_item">
+        <item>ABC</item>
+        <item>CO2</item>
+        <item>DCP</item>
+        <item>WCO2</item>
+        <item>MFOAM</item>
+        <item>CLEAN AGENT</item>
+    </string-array>
+
+    <string-array name="abc_item">
+        <item>1 Kg</item>
+        <item>2 Kg</item>
+        <item>4 Kg</item>
+        <item>6 Kg</item>
+        <item>9 Kg</item>
+    </string-array>
+
+    <string-array name="co_2_item">
+        <item>2 Kg</item>
+        <item>3.2 Kg</item>
+        <item>4.5 Kg</item>
+        <item>6.8 Kg</item>
+        <item>9 Kg</item>
+        <item>22.5 Kg</item>
+    </string-array>
+
+    <string-array name="dcp_item">
+        <item>2 Kg</item>
+        <item>4 Kg</item>
+        <item>6 Kg</item>
+        <item>9 Kg</item>
+        <item>50 Kg</item>
+    </string-array>
+
+    <string-array name="w_co_2_item">
+        <item>6 LTR</item>
+        <item>9 LTR</item>
+        <item>50 LTR</item>
+    </string-array>
+
+    <string-array name="m_foam_item">
+        <item>6 LTR</item>
+        <item>9 LTR</item>
+        <item>50 LTR</item>
+    </string-array>
+
+    <string-array name="clean_agent_item">
+        <item>1 Kg</item>
+        <item>2 Kg</item>
+        <item>4 Kg</item>
+        <item>6 Kg</item>
+    </string-array>
+
+    <string-array name="spare_part_required">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="spare_part_item">
+        <item>Safety Pin</item>
+        <item>Hose Connector</item>
+        <item>Syphon Tube Assembly</item>
+        <item>Hose Assembly</item>
+        <item>Spray Nozzle</item>
+        <item>Nozzle Holder</item>
+        <item>Operating Lever</item>
+        <item>Pressure Gauge</item>
+        <item>Discharge Head</item>
+        <item>Cartridge</item>
+        <item>Plastic Boot</item>
+    </string-array>
+
+    <string-array name="service_item">
+        <item>Cylinder Body</item>
+        <item>Safety Clip</item>
+        <item>Piercing Mechanism</item>
+        <item>Snifter Valve</item>
+        <item>Cap Washer</item>
+        <item>Vent Holes</item>
+        <item>Discharge Hose</item>
+        <item>Washer</item>
+        <item>Discharge Nozzle</item>
+        <item>Grip</item>
+        <item>Syphon Tube</item>
+        <item>Liquid Level &amp; Its Condition</item>
+        <item>Gas Cartridge Seal</item>
+        <item>Gas Cartridge Weight</item>
+    </string-array>
+
+    <string-array name="fire_hydrant_spare_part_item">
+        <item>Hose Pipe</item>
+        <item>Hydrant Valve</item>
+        <item>Blank Cap</item>
+        <item>Shut Wheel</item>
+        <item>Hose Box</item>
+        <item>Hoses</item>
+        <item>Glasses</item>
+        <item>Branch Pipe</item>
+        <item>Keys</item>
+        <item>Glass Hammer</item>
+    </string-array>
+
+    <string-array name="fire_bucket_spare_part_item">
+        <item>Numbers of Fire Buckets</item>
+        <item>Buckets</item>
+        <item>Stand</item>
+        <item>Sand</item>
+    </string-array>
+
+    <string-array name="hose_reel_spare_part_item">
+        <item>Hose Reel</item>
+        <item>Shut Off Nozzel</item>
+        <item>Ball Valve</item>
+        <item>Jubli Clip</item>
+        <item>Connecting Rubber Hose</item>
+    </string-array>
+
+    <string-array name="non_service_item">
+        <item>Empty</item>
+        <item>OK location Changed</item>
+        <item>Cylinder Body Damage</item>
+        <item>Safety Clip Required</item>
+        <item>Piercing Mechanism Damage</item>
+        <item>Snifter Volvo Blocked</item>
+        <item>Cap Washer Required</item>
+    </string-array>
+
+    <string-array name="fire_pump_item_1">
+        <item>Valves open (suction,Discharge &amp; Big pass)</item>
+        <item>Pump Start- Manual(on switch)</item>
+        <item>Pump Start- Automatic(pressure drop)</item>
+        <item>Pump Stop- Automatic(off switch)</item>
+        <item>Pump Stop -Automatic(time stop if set)</item>
+        <item>Pump Start pressure</item>
+        <item>Suction Pressure</item>
+        <item>Discharge Pressure</item>
+        <item>Start time</item>
+        <item>End Time</item>
+        <item>Pump run for at least 10 minutes</item>
+        <item>Pump packing showing slight discharge</item>
+        <item>Pump free from unusual vibration</item>
+        <item>Packings, bearings, casing not overheating</item>
+    </string-array>
+
+    <string-array name="fire_pump_item_2">
+        <item>HEATER COOLANT</item>
+        <item>COOLANT LEVEL</item>
+        <item>OIL LEVEL</item>
+        <item>FUEL LEVEL</item>
+        <item>AIR PIPING</item>
+        <item>BATTERY CHARGER</item>
+        <item>FUEL FILTER</item>
+        <item>FUEL DRAIN VALVE</item>
+        <item>COOLANT CONCENTRATION</item>
+        <item>DRIVE BELT TENSION</item>
+        <item>DRAIN EXHAUST PIPE</item>
+        <item>CRANKCASE BREATHER</item>
+        <item>AIR CLEANER ELEMENT</item>
+        <item>RADIATOR HOUSES</item>
+    </string-array>
+
+    <string-array name="fire_pump_service_1">
+        <item>ALIGNMENT OF PUMP</item>
+        <item>SHAFT GREASING</item>
+        <item>PUMP/MOTOR COUPLING</item>
+        <item>MOTOR FRAME &amp; FAN</item>
+        <item>PUMP CASING</item>
+        <item>PUMP IMPELLER</item>
+        <item>BEARING</item>
+    </string-array>
+
+    <string-array name="fire_pump_service_2">
+        <item>ALIGNMENT OF PUMP</item>
+        <item>SHAFT GREASING</item>
+        <item>MOTOR COUPLING</item>
+        <item>MOTOR FRAME &amp; FAN</item>
+        <item>PUMP CASING</item>
+        <item>PUMP IMPELLER</item>
+        <item>BEARING</item>
+    </string-array>
+
+    <string-array name="fire_pump_service_3">
+        <item>ALIGNMENT OF ENGINE</item>
+        <item>SHAFT GREASING</item>
+        <item>PUMP/MOTOR COUPLING</item>
+        <item>ENGINE FAN</item>
+        <item>PUMP CASING</item>
+        <item>PUMP IMPELLER</item>
+        <item>PANNEL</item>
+    </string-array>
+
+    <string-array name="fire_pump_service_4">
+        <item>ALIGNMENT OF PUMP</item>
+        <item>SHAFT GREASING</item>
+        <item>MOTOR COUPLING</item>
+        <item>MOTOR FRAME &amp; FAN</item>
+        <item>PUMP CASING</item>
+        <item>PUMP IMPELLER</item>
+        <item>BEARING</item>
+    </string-array>
+
+    <string-array name="control_valve_service">
+        <item>Spindle</item>
+        <item>Gasket</item>
+        <item>Gland packing</item>
+        <item>Drain valve</item>
+        <item>Pressure gauge</item>
+        <item>Solenoid valve</item>
+        <item>Internal disc / flap</item>
+        <item>Gong bell</item>
+        <item>Electric / Pneumatic actuator</item>
+        <item>Test valve</item>
+        <item>Miscellaneous accessories</item>
+        <item>Valve body</item>
+        <item>Flanges</item>
+        <item>Nut bolts</item>
+        <item>Painting</item>
+        <item>Deluge valve panel</item>
+    </string-array>
+
+    <string-array name="portable_monitors_service">
+        <item>Nozzle</item>
+        <item>Wheel</item>
+        <item>Inductor tube</item>
+        <item>Foam refill</item>
+        <item>Foam tank</item>
+        <item>Body corrosion</item>
+        <item>Valve</item>
+        <item>Gasket</item>
+        <item>Nut bolts</item>
+        <item>Paint</item>
+        <item>Electric panel</item>
+        <item>Cables</item>
+        <item>Electric accessories</item>
+        <item>Miscellaneous</item>
+        <item>Pressure gauge</item>
+        <item>Handle</item>
+    </string-array>
+
+    <string-array name="fire_detection_panel_service">
+        <item>Main panel</item>
+        <item>Loop card</item>
+        <item>Repeater panel</item>
+        <item>Manual call point</item>
+        <item>Hooter cum sounder</item>
+        <item>Isolator module</item>
+        <item>Heat detector</item>
+        <item>Flame detector</item>
+        <item>Smoke detector</item>
+        <item>Multi detector</item>
+        <item>Beam detector</item>
+        <item>Gas detector</item>
+        <item>Zone monitor module</item>
+        <item>Monitor module</item>
+        <item>Control module</item>
+        <item>Power supply unit</item>
+        <item>Zener barrier</item>
+        <item>Special detector</item>
+        <item>Siren</item>
+        <item>Battery backup</item>
+        <item>Cables</item>
+        <item>Miscellaneous</item>
+        <item>Control module</item>
+    </string-array>
+
+    <string-array name="suppression_system_service">
+        <item>Gas release panel</item>
+        <item>Refilling of gas required</item>
+        <item>Pressure gauge</item>
+        <item>Electromagnetic actuator</item>
+        <item>Pneumatic actuator</item>
+        <item>Pressure supervisory switch</item>
+        <item>Flexible discharge hose</item>
+        <item>Flexible actuator hose</item>
+        <item>Manifold</item>
+        <item>Suppression nozzle</item>
+        <item>Abort switch</item>
+        <item>Manual call point</item>
+        <item>Manual release switch</item>
+        <item>Smoke detector</item>
+        <item>Heat detector</item>
+        <item>Multi detector</item>
+        <item>Hooter cum sounder</item>
+        <item>Zone module</item>
+        <item>Control module</item>
+        <item>Cables</item>
+        <item>Power supply unit</item>
+        <item>Piping</item>
+        <item>Vesda panels / detectors</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="electric_fire_pump">
+        <item>Valves open (Suction. Discharge. &amp; By-pass)</item>
+        <item>Pump Start- MANUAL (on switch)</item>
+        <item>Pump start- AUTOMATIC (pressure drop)</item>
+        <item>Pump Stop- MANUAL (off switch)</item>
+        <item>Pump Stop- AUTOMATIC (timed stop if set)</item>
+        <item>Time controller is on first step (reduced voltage or reduced current starting)</item>
+        <item>Pump Start Pressure</item>
+        <item>Suction Pressure</item>
+        <item>Discharge Pressure</item>
+        <item>Start Time</item>
+        <item>End Time</item>
+        <item>Pump run for at least 10 minutes</item>
+        <item>Pump packing showing slight discharge</item>
+        <item>Pump free from unusual vibration</item>
+        <item>Packings. bearings. casings not overheating</item>
+        <item>Circulating relief valve working</item>
+        <item>Controller pilot light (power on) is illuminated</item>
+        <item>Transfer switch normal pilot light is illuminated</item>
+        <item>Isolation switch is closed (Standby emergency source)</item>
+        <item>Phase reversal pilot light if off or normal phase rotation pilot light is on.</item>
+        <item>Facilities notified for deficiencies</item>
+        <item>Alarm received at fire alarm panel</item>
+        <item>Alarm received at Public Safety</item>
+        <item>Test Acceptable</item>
+    </string-array>
+    
+    <string-array name="diesel_fire_pump">
+        <item>Oil Level checked</item>
+        <item>Valves open (Suction. Discharge. &amp; By-pass)</item>
+        <item>Pump Start- MANUAL (on switch)</item>
+        <item>Pump start- AUTOMATIC (pressure drop)</item>
+        <item>Pump Stop· MANUAL (off switch)</item>
+        <item>Pump Stop· AUTOMATIC (timed stop if set)</item>
+        <item>Pump Start pressure</item>
+        <item>Suction Pressure</item>
+        <item>Discharge Pressure</item>
+        <item>Start Time</item>
+        <item>End Time</item>
+        <item>Pump run for at least 30 minutes</item>
+        <item>Pump packing showing slight discharge</item>
+        <item>Pump free from unusual vibration</item>
+        <item>Packings. bearings. casings not overheating</item>
+        <item>Heat Exchanger Cooling water Discharge OK</item>
+        <item>Engine Speed Adequate</item>
+        <item>Engine Oil Pressure in Normal Range</item>
+        <item>Engine water Temperature in Normal Range</item>
+        <item>Charging Rate in Normal Range</item>
+        <item>Battery Terminals Corrosion Free</item>
+        <item>facilities notified for deficiencies</item>
+        <item>Alarm received at fire alarm panel</item>
+        <item>Alarm received at Public Safety</item>
+        <item>Test Acceptable</item>                               -
+    </string-array>
+    
+</resources>

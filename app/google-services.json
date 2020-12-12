@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766682152597",
+    "firebase_url": "https://m-fire-3384b.firebaseio.com",
+    "project_id": "m-fire-3384b",
+    "storage_bucket": "m-fire-3384b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766682152597:android:8d9bd931b1d63ac394259c",
+        "android_client_info": {
+          "package_name": "com.fireextinguisher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766682152597-snjbjaddlc4libp8kgpt8hce85g55uti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcj4sYbjbG2mrmInxnWvY7cFcsN3Kcqms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766682152597-snjbjaddlc4libp8kgpt8hce85g55uti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

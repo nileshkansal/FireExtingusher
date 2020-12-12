@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/bottom_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_7sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:id="@+id/service_image"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/un_selected_service_back"
+                android:paddingStart="@dimen/_2sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingEnd="@dimen/_2sdp"
+                android:paddingBottom="@dimen/_2sdp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_142sdp"
+                    android:layout_alignParentTop="true"
+                    android:contentDescription="@string/service"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/service"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <TextView
+                    android:id="@+id/service_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:text="@string/service"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/other_image"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/un_selected_service_back"
+                android:paddingStart="@dimen/_2sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingEnd="@dimen/_2sdp"
+                android:paddingBottom="@dimen/_2sdp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_142sdp"
+                    android:layout_alignParentTop="true"
+                    android:contentDescription="@string/others"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/other"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:text="@string/others"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_below="@+id/main_layout"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/btn_back"
+            android:text="@string/continue_text"
+            android:textAllCaps="true"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/_16sdp" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

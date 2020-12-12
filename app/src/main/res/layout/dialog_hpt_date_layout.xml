@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/current_hpt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:editable="false"
+        android:focusable="true"
+        app:errorEnabled="true"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/current_hpt_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:clickable="true"
+            android:editable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center|top|start"
+            android:hint="Date of HPT"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/next_hpt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:editable="false"
+        android:focusable="true"
+        app:errorEnabled="true"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/next_hpt_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:clickable="true"
+            android:editable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center|top|start"
+            android:hint="Next Date of HPT"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

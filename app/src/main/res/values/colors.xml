@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eb0738</color>
+    <color name="colorPrimaryDark">#ce012c</color>
+    <color name="colorAccent">#1976D2</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="grey_dark">#444444</color>
+    <color name="grey_medium">#837777</color>
+    <color name="light_grey">#f3f3f3</color>
+    <color name="hyperlink">#0bb4de</color>
+
+    <color name="button">#ffcc00</color>
+    <color name="button_text">#353535</color>
+    <color name="sub_title">#666666</color>
+    <color name="pin_normal">#1976D2</color>
+    <color name="green">#149A45</color>
+    <color name="transparent_green">#66149A45</color>
+
+    <color name="more_divider">#CCCCCC</color>
+    <color name="image_back_color">#f9f9f9</color>
+    <color name="greybackround">#E7E7E7</color>
+
+    <color name="qr_code_white">#FFFFFFFF</color>
+    <color name="qr_code_black">#000000</color>
+    <color name="qr_code_flashlight_bg">#76000000</color>
+    <color name="qr_code_finder_mask">#80000000</color>
+    <color name="qr_code_flash_light_text_color">#66FFFFFF</color>
+    <color name="qr_code_finder_frame">#FFFFFFFF</color>
+    <color name="qr_code_finder_laser">#017DC7</color>
+</resources>
